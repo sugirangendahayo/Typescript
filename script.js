@@ -1,13 +1,13 @@
 const menu = [
     {name: "1st pizza",
         price: 9
-    }
+    },
     {name: "2nd pizza",
         price: 10
-    }
+    },
     {name: "3rd pizza",
         price: 10
-    }
+    },
     {name: "4tf pizza",
         price: 8
     }
