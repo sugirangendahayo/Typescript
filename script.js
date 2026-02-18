@@ -11,13 +11,12 @@ const menu = [
     {name: "4tf pizza",
         price: 8
     }
-
 ];
+
 const cashInBalance = 100;
 const orderQueue = [];
 
 function addNewPizza(object){
-    
     menu.push(object);
 }
 addNewPizza({name: "5th pizza", price: 12})
