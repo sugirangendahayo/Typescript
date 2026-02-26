@@ -1,4 +1,6 @@
-const circ = (diameter)=>{
+const circ = (diameter: number)=>{
 return diameter * Math.PI
 }
-circ("Salomon")
+console.log(
+    circ(Number("9"))
+)
