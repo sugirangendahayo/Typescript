@@ -1,4 +1,4 @@
-    // find duplicated elements in array using typescript
+    
     function findDuplicates(arr: number[]): number[] {
         const seen = new Set<number>();
         const duplicates = new Set<number>();
@@ -14,6 +14,6 @@
         return Array.from(duplicates);
     }
     
-    // Example usage:
-    const numbers = [1, 2, 3, 2, 4, 5, 3, 6];
+   
+    const numbers = [1, 2, 3, 2, 4, 5, 3, 6, 4];
     console.log(findDuplicates(numbers)); 
