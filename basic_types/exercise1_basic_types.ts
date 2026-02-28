@@ -48,7 +48,7 @@ console.log(`Average score: ${averageScore}`);
 // let invalidNumber: number = "hello"; // Error: Type 'string' is not assignable to type 'number'
 
 // Mixed operations that TypeScript allows:
-let stringNumber: string = "The answer is ";
+let stringNumber: string = "The answer is: ";
 let answer: number = 42;
 let result: string = stringNumber + answer; // Valid: string + number results in string
 
