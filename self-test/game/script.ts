@@ -29,7 +29,7 @@ function decideWinner(user: Choice, computer: Choice): string {
 function playGame(userChoice: Choice) {
   const computerChoice = getComputerChoice();
 
-  userChoiceP.textContent = `Your choice: ${userChoice}`;
+  userChoiceP.textContent = `Your choice is: ${userChoice}`;
   computerChoiceP.textContent = `Computer choice: ${computerChoice}`;
   winnerP.textContent = `Winner: ${decideWinner(userChoice, computerChoice)}`;
 }
