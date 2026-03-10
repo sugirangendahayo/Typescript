@@ -27,6 +27,6 @@
 type Direction = "Up" | "Down" | "Left" | "Right";
 
 function move(direction: Direction, distance: number) {
-  console.log(`Moving ${direction} by ${distance}`);
+  console.log(`Moving ${direction} by ${distance} cm`);
 }
 move("Right", 25);
