@@ -1,5 +1,8 @@
-let ourTuple: [unknown, boolean, string];
+let ourTuple: [number, boolean, string] = [5, false, 'Coding God was here'];
 
-// initialized incorrectly which throws an error
-ourTuple = [false, true, "5"];
+// This is allowed at runtime but technically violates the tuple's *defined* length of 3
+ourTuple.push('Something new');
+console.log(ourTuple); // Output: [5, false, 'Coding God was here', 'Something new']
+const getTypeoflastElem = typeof ourTuple[ourTuple.length - 1];
+console.log(getTypeoflastElem); // Output: string
 console.log(ourTuple)
