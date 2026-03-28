@@ -16,7 +16,7 @@ document.addEventListener("keydown", function(e: KeyboardEvent){
         console.log("Moving Left!");
         break;
     case "ArrowRight":
-        console.log("Moving Right");
+        console.log("Moving Right!");
         break;
     default:
         console.log("Wrong enterred key, try again...");
