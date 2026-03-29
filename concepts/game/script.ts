@@ -13,7 +13,7 @@ document.addEventListener("keydown", function(e: KeyboardEvent){
         console.log("Moving Down!");
         break;
     case "ArrowLeft":
-        console.log("Moving Left!");
+        console.log("Moving Left");
         break;
     case "ArrowRight":
         console.log("Moving Right!");
