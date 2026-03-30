@@ -20,7 +20,7 @@ async function fetchUsersNumber() {
   const res = await fetch("./data/usersNumber.json");
   const users: User[] = await res.json();
 
-  console.log("Users from numeric ID API:");
+  console.log("User(s) from numeric ID API:");
   users.forEach(processUserId);
 }
 
